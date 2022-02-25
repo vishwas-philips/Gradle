@@ -1,8 +1,7 @@
 name: gradle
 on:
-  #workflow_dispatch
-  push:
-    branches: [ main ]   
+  workflow_dispatch
+ 
 jobs:
   elastic:
     runs-on: ubuntu:latest
