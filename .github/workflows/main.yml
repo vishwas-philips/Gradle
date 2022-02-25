@@ -1,0 +1,14 @@
+name: gradle
+on:
+  #workflow_dispatch
+  push:
+    branches: [ main ]   
+jobs:
+  elastic:
+    runs-on: ubuntu:latest
+    steps:
+
+      - name: Gradle version number  
+        uses: Vishwastp89/version@main
+        with:
+          filename: build.gradle
