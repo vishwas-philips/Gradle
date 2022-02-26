@@ -5,7 +5,7 @@ on:
  
 jobs:
   elastic:
-    runs-on: ubuntu:latest
+    runs-on: centos:7
     steps:
 
       - name: Gradle version number  
